@@ -1,4 +1,29 @@
-* {
+/* Estilo para la sección de información de participantes */
+.participant-info {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.participant-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    color: #0056b3;
+}
+
+.participant-info p {
+    font-size: 1em;
+    margin: 4px 0;
+}
+
+.participant-info .highlight {
+    font-weight: bold;
+    color: #007bff;
+}* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -72,6 +97,18 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.activity-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #555;
+}
+
+.activity-card ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
 }
 
 .form-group {
